@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(rgb(249 249 249 / 16%), rgb(0 0 0 / 86%)),
+        url(media/images/gabtoli-cattle-market-01.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+header{
+    color: white;
+    padding: 10% 55% 2% 15%;
+}
+header p{
+    color: rgb(199, 199, 199);
+}
+h1{
+font-size: 50px;
+}
+.donate-button{
+    text-decoration: none;
+    margin: 15%;
+    background-color: #EF233C;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;    
+}
+.video{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.video-title{
+    height: 425px;
+    width: 425px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+}
+.video-title p{
+    font-size: 16px;
+    color: gray;
+}
+.mp4{
+    height: 425px;
+    width: 425px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+.mp4 .icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.mp4 img{
+    border-radius: 10px;
+}
+#more {display: none;}
+#myBtn {
+    text-decoration: none;
+    background-color: #EF233C;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px; 
+    border: none;
+}
+.third{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.img-quran{
+    height: 425px;
+    width: 425px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.img-quran img{
+    border-radius: 10px;
+}
+.text{
+    height: 425px;
+    width: 425px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+}
+.text p{
+    font-size: 16px;
+    color: gray;
+}
+#myBtn1{
+    text-decoration: none;
+    background-color: #EF233C;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px; 
+    border: none;
+}
+.forth-title{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.forth-title p{
+    color: #787878;
+}
+.help-type{
+    padding-top: 25px;
+}
+.help-type1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.help-type2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.help{
+    height: 175px;
+    width: 370px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    background-color: #FEF4F5;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.help-text{
+    display: flex;
+    flex-direction: column;
+}
+.help-text p{
+    font-size: 17px;
+    color: #787878;
+    font-weight: 400;
+}
+.help-text h3{
+    margin: 0;
+}
+.fifth{
+    height: 145vh;
+}
+.forth-img{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    gap: 20px;
+}
+.forth-img img{
+    border-radius: 10px;
+}
+.fifth-title{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 100px;
+}
+.fifth-type{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 20px;
+}
+.fifth-img{
+    height: 400px;
+    width: 325px;
+    margin: 0;
+    display: flex;
+    background-color: #FEF4F5;
+    flex-direction: column;
+    border-color: black;
+    border-radius: 10px;
+}
+.fifth-img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.fifth-text{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.fifth-text p{
+    color: Darkgray;
+}
+.btn{
+    border: none;
+    background-color: #FEF4F5;
+    color: #EF233C;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline
+}
+footer {
+    height: 25vh;
+    text-align: center;
+    padding-top: 1px;
+    background-color: rgb(57, 57, 94);
+    color: white;
+    background-color: #0B0D17;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    font-weight: 300;
+    color: #EF233C;
+}
+footer p{
+    margin: 0%;
+    color: #787878;
+}
