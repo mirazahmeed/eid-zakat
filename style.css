@@ -71,7 +71,12 @@ h2{
 .mp4 img{
     border-radius: 10px;
 }
-#more {display: none;}
+#more{
+    display: none;
+}
+#more1{
+    display: none;
+}
 #myBtn {
     text-decoration: none;
     background-color: #EF233C;
